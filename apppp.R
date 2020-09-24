@@ -209,7 +209,7 @@ server = shinyServer(function(input, output,session){
             HTML("<div id='error-box'>
                  Sorry, that's not the right username or password. Please, 
                  try again. If you continue to have problems,
-                 <a href='http://seaportai.com/contact-us/'>
+                 <a href='###'>
                  <u>Contact Us..</u></a>
                  </div>")
           }
@@ -294,7 +294,7 @@ server = shinyServer(function(input, output,session){
                             ")),
             
             
-            tags$head(HTML("<title>SeaportAI</title> <link rel='icon' type='image/gif/png' href='log.png'>")),
+            tags$head(HTML("<title>XYZ</title> <link rel='icon' type='image/gif/png' href='log.png'>")),
             
             navbarPage(id="tabs",
             
@@ -354,7 +354,7 @@ server = shinyServer(function(input, output,session){
                                             br(),
                                             br(),
                                             bsPopover(id = "dummy000",title = "Note:",content = "XXX",placement = "right"),
-                                            #bsPopover(id="check",title = "",content = "Note: I accept the SeaportAI Terms & Conditions.. Show the Analyse button",placement = "right"),
+                                            #bsPopover(id="check",title = "",content = "Note: I accept the XYZ Terms & Conditions.. Show the Analyse button",placement = "right"),
                                             tags$div(bsButton("reset", label = "Reset ?", icon =   icon("repeat",lib = "glyphicon"),block = F, style="danger",size = "small"),align="center"),
                                             
                                             
@@ -363,7 +363,7 @@ server = shinyServer(function(input, output,session){
                                             
                                             # tags$div(class = "header", checked = NA,style="text-align:center;color:#929292;font-size:100%",
                                             #          tags$tbody("Need Help ?"),
-                                            #          tags$a(href = "http://seaportai.com/contact-us/", "Contact Us...", target="_blank")
+                                            #          tags$a(href = "XYZ", "Contact Us...", target="_blank")
                                             # ),
                                             tags$div(actionLink("reset2",""),align="center"),
                                             br()
